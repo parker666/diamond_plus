@@ -10,7 +10,7 @@ minetest.register_tool("diamond_plus:diamond_xpick", {
 })
 
 minetest.register_craft({
-	output = "default:diamond_xpick 4",
+	output = "diamond_plus:diamond_xpick 4",
 	recipe = {
 		{"default:diamond", "default:diamond", "default:diamond"},
 		{"", "default:diamond", ""},
